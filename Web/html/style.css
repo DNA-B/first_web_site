@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px;
+  border-bottom: 1px solid gray;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#grid {
+  display: grid;
+  margin: 0;
+  grid-template-columns: 150px 1fr;
+  font-size: 20px;
+}
+
+#grid ul {
+  padding-left: 33px;
+  border-right: 1px solid gray;
+}
+
+#article {
+  padding-left: 30px;
+}
+
+img {
+  border-radius: 50%;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@media(max-width:1000px) {
+  #grid {
+    display: block;
+  }
+
+  #grid ul {
+    padding-left: none;
+  }
+
+  h1 {
+    border-bottom: none;
